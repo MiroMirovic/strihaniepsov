@@ -1,0 +1,45 @@
+baseURL = 'https://strihaniepsov.com/'
+languageCode = 'sk-SK'
+title = 'Psí salón strihanie a úprava Vaších štvornohých miláčikov.'
+theme = 'psi-salon-theme'
+
+# Zakázať automatický sitemap
+disableSitemap = true
+
+# Zakázať zbytočné kategórie a tagy
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = 'Profesionálne strihanie a úprava psov'
+  facebook = 'https://www.facebook.com/Strihanie007'
+  instagram = 'https://www.instagram.com/strihanie_psikov/'
+
+[menu]
+  [[menu.main]]
+    name = 'Domov'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'O mne'
+    url = '/#o-mne'
+    weight = 2
+  [[menu.main]]
+    name = 'Služby'
+    url = '/#sluzby'
+    weight = 3
+  [[menu.main]]
+    name = 'Galéria'
+    url = '/#galeria'
+    weight = 4
+  [[menu.main]]
+    name = 'Kontakt'
+    url = '/#kontakt'
+    weight = 5
+  [[menu.main]]
+    name = 'Facebook'
+    url = 'https://www.facebook.com/Strihanie007'
+    weight = 6
+  [[menu.main]]
+    name = 'Instagram'
+    url = 'https://www.instagram.com/strihanie_psikov/'
+    weight = 7

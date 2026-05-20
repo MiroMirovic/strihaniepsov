@@ -1,0 +1,3 @@
+hugo server -D   toto služi na testovanie webu
+
+hugo    -takto nezmení sitemap pre google.Toto treba urobit pri finálnom nahrati na web
